@@ -63,4 +63,5 @@ jobs:
         with:
           app-name: 'flask-lærer-demo'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8F38924B461646E8861E4E0BADF86FB6 }}
+          
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
